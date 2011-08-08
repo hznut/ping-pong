@@ -3,6 +3,7 @@ This program simulates Ping-Pong game. However the rules of the game have been b
 1) The game is of 11 points. Whoever scores 11 points first wins.
 2) There is no special case for a deuce (10-10).
 3) Whoever wins the rally/point, gets to serve.
+This is a Java program and uses multithreading to spawn and control the players.
 
 Assuming the project directory ping-pong is placed under <some-dir>/, let <app-home> refer to the <some-dir>/ping-pong/ path. 
 
