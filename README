@@ -9,7 +9,10 @@ Assuming the project directory ping-pong is placed under <some-dir>/, let <app-h
 Start the game simply by doing:
 
 cd <app-home>
+java -jar target/ping-pong-0.0.1-SNAPSHOT.jar hz.nut.ping.pong.Game
+
+If you do a fresh packaging of the jar then you can do:
+
+cd <app-home> 
 mvn clean package
 #The above command will package a jar and place it under target/ directory.
-
-java -jar target/ping-pong-0.0.1-SNAPSHOT.jar hz.nut.ping.pong.Game
